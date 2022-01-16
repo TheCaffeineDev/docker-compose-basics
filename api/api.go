@@ -4,9 +4,7 @@ import (
     "log"
     "net/http"
 )
-type director struct {
-    Name string `json:"name"`
-}
+
 type movie struct {
     Universe    string   `json:"universe"`
     Title       string   `json:"title"`
